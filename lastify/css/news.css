@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+main {
+    height: 13.8rem;
+}
+
+
+/* fundo da pagina, body*/
+body {
+    background-color: #f1dbda;
+}
+
+
+/*header da pagina*/
+#header {
+    background-color:#E45195;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    height: 13.9rem;
+}
+
+
+/*logo da pagina*/
+.logosite {
+    font-size: 4rem;
+    margin-right: 40rem;
+    display: inline-flex;
+    margin-left: 10rem;
+    width: 22rem;
+}
+
+
+/*redirecionamentos da pagina*/
+.redirecionamento {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 5rem;
+    margin-left: 3rem;
+    font-size: 2.8rem;
+    color: #f9ebf2;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+/*animacao do redirecionaento*/
+.redirecionamento:hover {
+    font-size: 3.5rem;
+    transition: all 0.5s;
+}
+
+.video {
+    background-color: #E45195;
+    width: 80rem;
+    height: 45rem;
+    margin-top: 19rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+
+.pinicio {
+    font-size: 3rem;
+}
+/*link decoration*/
+a {
+    text-decoration: none;
+    color: #f9ebf2;
+}
