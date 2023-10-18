@@ -1,0 +1,24 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-color-header {
+    background: rgb(249, 227, 208);
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.bi-balloon-heart,
+.bi-boxes,
+.bi-brilliance,
+.bi-cloud-drizzle-fill {
+    font-size: 2rem;
+}
