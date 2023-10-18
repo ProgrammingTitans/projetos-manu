@@ -5,10 +5,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!-- título, linkagem ao css, ícone -->
+        <!-- título, linkagem ao css, ícone e fontes -->
         <title>last.ify</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="img/iconeaba.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
@@ -16,10 +20,12 @@
         <main> <!-- o main está aqui para "fixar" ou "marcar" o header -->
             <div id="header"> <!--header do site, contendo logo e redirecionamentos-->
                 <div><img src="img/logosite.png" class="logosite"></div>
-                <p class="redirecionamento"><a href="">HOME</p>
-                <p class="redirecionamento"><a href="news.html">NEWS</p>
-                <p class="redirecionamento"><a href="generos.html">GÊNEROS</p>
-                <p class="redirecionamento"><a href="shows.html">SHOWS</p>
+                <section class="redirecionamento">
+                <p class="redirecionamentos"><a href="">HOME</p>
+                <p class="redirecionamentos"><a href="news.html">NEWS</p>
+                <p class="redirecionamentos"><a href="generos.html">GÊNEROS</p>
+                <p class="redirecionamentos"><a href="shows.html">SHOWS</p>
+                </section>
             </div>
         </main>
 
@@ -28,48 +34,138 @@
             <p class="lancamentos">L A N Ç A M E N T O S</p>
  
             <div class="quadrado1"> <!--onde será colocada a opção de escutar as músicas-->
-                <iframe class="musicprevia" style="border-radius:12px" src="https://open.spotify.com/embed/track/7CyPwkp0oE8Ro9Dd5CUDjW?utm_source=generator" width="80%" height="1495" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe class="musicprevia" style="border-radius:12px" src="https://open.spotify.com/embed/track/4y1LsJpmMti1PfRQV9AWWe?utm_source=generator" width="100%" height="1495" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" ></iframe>
 
             </div>
 
             <div class="quadrado2"> <!--onde será colocada as opções de gêneros-->
 
                 <div class="coluna1"> <!-- gêneros da primeira coluna do segundo quadrado-->
+                <center>
                 <p class="gen1">eletrônica</p>
                 <p class="gen1">rock</p>
                 <p class="gen1">jazz</p>
                 <p class="gen1">hip-hop</p>
                 <p class="gen1">pop internacional</p>
+                </center>
                 </div>
 
                 <div class="coluna2"> <!--gêneros da segunda coluna do segundo quadrado-->
+                <center>
                 <p class="gen2">sertanejo</p>
                 <p class="gen2">mpb</p>
                 <p class="gen2">funk</p>
                 <p class="gen2">kpop</p>
                 <p class="gen2">pop nacional</p>
+                </center>
                 </div>
+
 
             </div>
 
+            <p class="topglobais">TOP GLOBAIS</p>
             <div id="home2"> <!--pagina inicial depois dos lançamentos-->
-                <p class="topglobais">TOP GLOBAIS</p>
 
-                <div class="cantores1">
+                <div class="tabela1cantores"> <!-- primeira div da linha da linha -->
+                    <section class="primeirafila">
+                    <img class="fotocantor" src="img/gato.jfif">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+        
+                    <section class="primeirafila">
+                    <img class="fotocantor" src="img/gato.jfif">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+
+                    <section class="primeirafila">
+                    <img class="fotocantor" src="img/gato.jfif">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    </section>
                 </div>
 
-                <div class="top1">
+
+                <div class="top1"> <!-- segunda div da linha -->
+                    <center>
+                    <img class="fotoprincipal" src="img/gato.jfif">
+                    <p class="nomeprincipal">Ed Sheeran</p>
+                    </center>
                 </div>
 
 
-                <div class="cantores2">
+                <div class="tabela2cantores"> <!-- terceira div da linha-->
+                    <section class="filaright">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    <img class="fotocantor" src="img/gato.jfif">
+                    </section>
+
+                    <section class="filaright">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    <img class="fotocantor" src="img/gato.jfif">
+                    </section>
+
+                    <section class="filaright">
+                    <p class="nomecantor">Ed Sheeran</p>
+                    <img class="fotocantor" src="img/gato.jfif">
+                    </section>
                 </div>
 
-
-                <div class="geral"> <!--ultimo item maior--> 
-                </div>
 
             </div>
+
+
+                <div class="geral"> <!--ultima div maior--> 
+
+                    
+                    <div class="fileira1">
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    </div>
+
+
+                    <div class="fileira2">
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    <section class="fila3">
+                        <img class="fotocantor" src="img/gato.jfif">
+                        <p class="nomecantor">Ed Sheeran</p>
+                    </section>
+                    </div>
+
+
+                    <div class="fileira3">
+                    <section class="filaright2">
+                        <p class="nomecantor">Ed Sheeran</p>
+                        <img class="fotocantor" src="img/gato.jfif">
+                    </section>
+                    <section class="filaright2">
+                        <p class="nomecantor">Ed Sheeran</p>
+                        <img class="fotocantor" src="img/gato.jfif">
+                    </section>
+                    <section class="filaright2">
+                        <p class="nomecantor">Ed Sheeran</p>
+                        <img class="fotocantor" src="img/gato.jfif">
+                    </section>
+                    </div>
+
+
+                </div>
+
 
 
             <footer> <!--footer da pagina-->

@@ -7,14 +7,14 @@
 
 
 html,body {
-    font-size: 62.5%;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
     text-rendering: optimizeLegibility;
 }
 
 
 main {
-    height: 13.8rem;
+    height: 13rem;
 }
 
 
@@ -26,74 +26,79 @@ body {
 
 /*header da pagina*/
 #header {
+    align-items: center;
     background-color:#E45195;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem;
-    position: fixed;
-    top: 0rem;
-    right: 0rem;
+    height: 13rem;
     left: 0rem;
-    height: 13.9rem;
+    position: fixed;
+    right: 0rem;
+    top: 0rem;
 }
 
 
 /*logo da pagina*/
 .logosite {
     font-size: 4rem;
-    margin-right: 40rem;
     display: inline-flex;
-    margin-left: 10rem;
-    width: 22rem;
+    width: 20rem;
+    margin-left: 17rem;
 }
 
+
+
+.redirecionamento {
+    display: flex;
+    margin-left: 37.5rem;
+    float: right;
+}
 
 /*redirecionamentos da pagina*/
-.redirecionamento {
-    display: inline-flex;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
-    margin-right: 5rem;
-    margin-left: 3rem;
-    font-size: 2.8rem;
+.redirecionamentos{
     color: #f9ebf2;
-    font-family: 'Kanit', sans-serif;
-    font-weight:bold;
-    transition: all 0.5s;
     cursor: pointer;
+    display: inline-flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    font-weight:bold;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    transition: all 0.5s;
+    vertical-align: middle;
 }
 
-
-/*animacao do redirecionaento*/
-.redirecionamento:hover {
-    font-size: 3.5rem;
-    transition: all 0.5s;
+/*animacao do redirecionamento*/
+.redirecionamentos:hover {
+    font-size: 2.7rem;
+    transition: all 0.4s;
+    color: white;
 }
 
 
 /*palavra logo após a header*/
 .lancamentos {
-    font-size: 3.6rem;
-    margin-top: 1rem;
-    display: flex;
     color:#E45195;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6rem;
     font-weight: bold;
     justify-content:right;
-    font-family: 'Kanit', sans-serif;
-    margin-right: 19.5rem;
+    margin-bottom: 1rem;
+    margin-right: 22rem;
+    margin-top: 1rem;
 }
 
 
 /*quadrado que contém as músicas*/
 .quadrado1 {
     background-color: #E45195;
-    width: 35rem;
-    height: 50rem;
-    margin-left: 12rem;
+    width: 37rem;
+    height: 39rem;
+    padding: 2rem;
+    margin-left: 17rem;
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
     border-radius: 1rem;
 }
 
@@ -101,8 +106,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3.5rem;
-    margin-top: 7rem;
 }
 
 
@@ -124,7 +127,8 @@ body {
     display:inline-block;
     float: left;
     display: grid;
-    padding:1rem;
+    padding:1.5rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -132,25 +136,26 @@ body {
 .coluna2 {
     display:inline-block;
     display: grid;
-    padding:1rem;
+    padding:1.5rem;
     float: right;
 }
 
 
 /*generos*/
 .gen1 {
-    width: 25.5rem;
+    width: 27rem;
     color:#E45195;
-    font-size: 3rem;
+    font-size: 2.7rem;
     background-color: #f1dbda;
     border-radius: 0.5rem;
-    margin-top: 1.7rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-bottom: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7.5rem;
-    padding: 1.5rem;
+    height: 7.8rem;
+    padding: 2rem;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -162,14 +167,14 @@ body {
     font-size: 2.7rem;
     background-color: #f1dbda;
     border-radius: 0.5rem;
-    margin-top: 1.7rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7.5rem;
+    height: 7.8rem;
     padding: 1.5rem;
-    width: 25.5rem;
+    width: 27rem;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -177,72 +182,176 @@ body {
 
 /*animação dos gêneros*/
 .gen1:hover {
-    font-size: 3.3rem;
-    transition: all 0.5s;
-    width:23rem;
-    margin-left: 1rem;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: all 0.3s;
+    width:26rem;
+    font-weight:600;
 }
 
 
 /*animação dos gêneros*/
 .gen2:hover {
-    font-size: 3.3rem;
-    transition: all 0.5s;
-    width:23rem;
-    margin-left: 1rem;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: all 0.3s;
+    width:26rem;
+
+    font-weight:600;
 }
 
 
 /*escrita no meio da pagina*/
 .topglobais {
     font-size: 3.6rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: flex;
     color:#E45195;
     font-weight: bold;
     justify-content:center;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
 }
 
-
+#home2 {
+    display: flex;
+    padding-right: 11.7rem;
+    padding-left: 12rem;
+}
 /*primeira tabela de cantores*/
-.cantores1 {
+.tabela1cantores {
     background-color: #E45195;
-    width: 35rem;
+    width: 40rem;
     height: 22rem;
-    margin-left: 12rem;
-    display: inline-block;
     margin-top: 1rem;
     border-radius: 1rem;
+    display:inline-block;
+    display: grid;
+    padding: 1rem;
 }
 
 
+/*foto do cantor e o nome*/
+.primeirafila {
+    display: flex;
+    width: 36rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 6rem;
+}
+
+.primeirafila:hover {
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 1px #f9ebf2;
+}
+
+.filaright {
+    display: flex;
+    width: 36rem;
+    border-radius: 1rem;
+    display: flex;
+    float: right;
+    justify-content: right;
+    align-items:center;
+    margin-bottom: 1rem;
+    height: 6rem;
+    
+}
+
+.filaright2 {
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    height: 7rem;
+    justify-content: right;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.7;
+    transition: all 0.5s;
+    width: 36rem;
+    
+}
+
+.filaright2:hover {
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 1px #f9ebf2;
+}
+
+.filaright:hover {
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 1px #f9ebf2;
+}
+
+/*foto do cantor*/
+.fotocantor {
+    width: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+/*nome do cantor*/
+.nomecantor {
+    font-size: 2rem;
+    display: flex;
+    margin-left: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color:#f9ebf2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem ;
+}
 /*o melhor cantor*/
 .top1 {
     background-color: #E45195;
-    width: 30rem;
-    height: 20rem;
+    width: 32rem;
     margin-left: 12rem;
     margin-right: 12rem;
-    display: inline-block;
-    margin-top: 0rem;
+    height: 22;
+    margin-top: 2rem;
     border-radius: 1rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.fotoprincipal {
+    width: 22rem;
+    height: 15rem;
+    border-radius: 1rem;
+    margin-top: 1.7rem;
+    
+}
+
+.nomeprincipal {
+    font-size: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*segunda tabela de cantores*/
-.cantores2 {
+.tabela2cantores {
     background-color: #E45195;
-    width: 35rem;
+    width: 40rem;
     height: 22rem;
-    margin-left: rem;
-    display: inline-block;
     margin-top: 1rem;
     border-radius: 1rem;
-    float: right;
-    margin-right: 12rem;
+    display: flexbox;
+    padding: 1rem;
+
 }
 
 
@@ -252,14 +361,43 @@ body {
     width: 128.6rem;
     height: 25rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 2rem;
     margin-bottom: 6rem;
     margin-left: 12rem;
     border-radius: 1rem;
+
 }
 
+.fila3 {
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    height: 7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: 1.7;
+    transition: all 0.5s;
+    width: 36rem;
+    margin-left: 1rem;
+}
+
+.fila3:hover {
+    transition: all 0.2s;
+    box-shadow: 0 0 15px 1px #f9ebf2;
+}
+
+.fileira1 {
+    display: block;
+}
+
+.fileira2 {
+    margin-left: 11.7rem;
+}
+
+.fileira3 {
+    margin-left: 4.6rem;
+}
 
 /*footer do site*/
 footer {
@@ -272,7 +410,7 @@ footer {
     font-size: 2rem;
     margin-top: 5rem;
     margin-left: -35rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*meios de contato*/
@@ -280,7 +418,7 @@ footer {
     font-size: 1.7rem;
     margin-top: 3.7rem;
     margin-left: 15rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*integrantes do grupo*/
@@ -288,7 +426,7 @@ footer {
     font-size: 2rem;
     margin-top: 5rem;
     margin-left: 25rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     float: right;
     display: flex;
 }
